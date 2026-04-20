@@ -1,0 +1,12 @@
+{
+  "n_respondents": 210,
+  "fallback_avg_consumption": 0.6002,
+  "fallback_std_consumption": 0.3954,
+  "fallback_confidence": "Low",
+  "safety_buffer": 0.05,
+  "confidence_thresholds": {
+    "High": "std <= 0.35",
+    "Medium": "std <= 0.44",
+    "Low": "std >  0.44"
+  }
+}

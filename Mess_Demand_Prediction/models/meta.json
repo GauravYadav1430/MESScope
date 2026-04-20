@@ -1,0 +1,39 @@
+{
+  "eat_map": {
+    "Full": 1.0,
+    "Half": 0.5,
+    "Skipped": 0.0
+  },
+  "like_map": {
+    "Yes": 1,
+    "Neutral": 0,
+    "No": -1
+  },
+  "venue_map": {
+    "Mess": 0,
+    "Both": 1,
+    "Outside": 2
+  },
+  "d_metrics": {
+    "mae": 0.2016,
+    "rmse": 0.2837,
+    "r2": 0.5282
+  },
+  "w_metrics": {
+    "mae": 0.2016,
+    "rmse": 0.2837,
+    "r2": 0.5281
+  },
+  "feature_importances": {
+    "like_enc": 0.8396862409723929,
+    "rating": 0.07208311094084999,
+    "venue_enc": 0.025535708936756066,
+    "meal_Paneer Do Pyaza": 0.005026975439372347,
+    "meal_Rajma": 0.004379401115714556,
+    "meal_Dal Tadka + Rasgulla": 0.004159863883870821,
+    "meal_Aloo Pyaz Paratha": 0.004068042615586877,
+    "meal_Chicken/Paneer Tikka": 0.0035521868798632154,
+    "meal_Chana Masala": 0.003535122769887189,
+    "meal_Aloo Beans + Milk Cake": 0.0035149795913666094
+  }
+}
