@@ -26,7 +26,12 @@ from sklearn.preprocessing import LabelEncoder
 # ─────────────────────────────────────────────────────────────
 # STEP 1: LOAD DATA
 # ─────────────────────────────────────────────────────────────
-df = pd.read_csv('../data/mess_data.csv')
+import os
+
+base_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(base_dir, '..', 'data', 'mess_data.csv')
+
+df = pd.read_csv(file_path)
 print(f"Dataset shape: {df.shape}")
 
 # List of all 21 meals (normalize naming)
