@@ -172,5 +172,7 @@ def wastage_report():
 
 
 if __name__ == '__main__':
-    print(f"MESScope API → http://localhost:5000  ({len(MEAL_DATA)} meals loaded)")
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    # Render dynamically assigns a live cloud port. If local, default to 5000.
+    port = int(os.environ.get('PORT', 5000))
+    print(f"MESScope API booting on port {port} ({len(MEAL_DATA)} meals loaded)")
+    app.run(debug=False, host='0.0.0.0', port=port)
